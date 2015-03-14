@@ -1,0 +1,11 @@
+How to run tests.
+
+With the source code on tux:
+
+1: Untar the files on tux
+2: set the java path -> export JAVA_HOME=/usr/lib/jvm/java-7-oracle
+3: cd to PriorityQueue (you should see a build.xml file here)
+4: compile the java code by entering -> ant
+5: run the JUnit tests by entering -> ant run_tests
+6: The screen output should indicate tests completed and passed
+7: To clean up the directory enter -> ant clean
